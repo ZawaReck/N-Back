@@ -1,0 +1,46 @@
+:root {
+  font-family:
+    'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #17212f;
+  background:
+    radial-gradient(circle at top left, rgba(255, 217, 178, 0.38), transparent 24%),
+    radial-gradient(circle at bottom right, rgba(167, 210, 199, 0.32), transparent 22%),
+    linear-gradient(180deg, #faf7f0 0%, #f4f6fa 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 12px;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1.05;
+}
+
+h2 {
+  margin-bottom: 14px;
+  font-size: 1.1rem;
+}
+
+#root {
+  min-height: 100vh;
+}
